@@ -1,14 +1,9 @@
-<mxfile host="app.diagrams.net" modified="2022-04-29T06:29:50.841Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.41 Safari/537.36" etag="k04NThwlzqs3zZygZcgE" version="17.5.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-04-29T06:33:28.689Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.41 Safari/537.36" etag="jsQJ6UOHZqg-Uk6p214b" version="17.5.0" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="3763" dy="1348" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="900" math="0" shadow="0">
+    <mxGraphModel dx="2966" dy="852" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="900" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
-        <mxCell id="qx1c1A97qgVuOVS9EGKJ-27" value="&lt;meta charset=&quot;utf-8&quot;&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: helvetica; font-size: 16px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: center; text-indent: 0px; text-transform: none; word-spacing: 0px; background-color: rgb(248, 249, 250); display: inline; float: none;&quot;&gt;시작 데이터 초기화&lt;/span&gt;&lt;br style=&quot;color: rgb(0, 0, 0); font-family: helvetica; font-size: 16px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: center; text-indent: 0px; text-transform: none; word-spacing: 0px; background-color: rgb(248, 249, 250);&quot;&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: helvetica; font-size: 16px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: center; text-indent: 0px; text-transform: none; word-spacing: 0px; background-color: rgb(248, 249, 250); display: inline; float: none;&quot;&gt;및 컴포넌트에 내려주기&lt;/span&gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0;exitDx=0;exitDy=0;fontSize=16;fillColor=#dae8fc;strokeColor=#6c8ebf;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="qx1c1A97qgVuOVS9EGKJ-5" target="qx1c1A97qgVuOVS9EGKJ-34" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="960" y="80.33333333333337" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="qx1c1A97qgVuOVS9EGKJ-5" value="App" style="swimlane;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="1060" y="80" width="230" height="750" as="geometry" />
         </mxCell>
@@ -58,11 +53,11 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="qx1c1A97qgVuOVS9EGKJ-34" value="현재 앱의 상태" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="790" y="200" width="110" height="30" as="geometry" />
+        <mxCell id="qx1c1A97qgVuOVS9EGKJ-34" value="상태 변경시, render" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="790" y="204.73" width="110" height="30" as="geometry" />
         </mxCell>
         <mxCell id="qx1c1A97qgVuOVS9EGKJ-44" value="utils" style="swimlane;fontSize=14;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="240" y="80" width="200" height="280" as="geometry" />
+          <mxGeometry x="250" y="80" width="200" height="280" as="geometry" />
         </mxCell>
         <mxCell id="qx1c1A97qgVuOVS9EGKJ-45" value="API Request" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" parent="qx1c1A97qgVuOVS9EGKJ-44" vertex="1">
           <mxGeometry x="40" y="40" width="120" height="60" as="geometry" />
@@ -76,17 +71,20 @@
         <mxCell id="qx1c1A97qgVuOVS9EGKJ-49" value="cache" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" parent="qx1c1A97qgVuOVS9EGKJ-48" vertex="1">
           <mxGeometry x="40" y="40" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="1eVOTmYRMCeY3ewMuK2n-9" value="디렉토리변경, sub" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="1eVOTmYRMCeY3ewMuK2n-3" target="qx1c1A97qgVuOVS9EGKJ-34">
+        <mxCell id="1eVOTmYRMCeY3ewMuK2n-9" value="디렉토리변경, sub" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="1eVOTmYRMCeY3ewMuK2n-3" target="qx1c1A97qgVuOVS9EGKJ-34">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="1eVOTmYRMCeY3ewMuK2n-3" value="Event Channel" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="570" y="204.73" width="120" height="60" as="geometry" />
+        <mxCell id="1eVOTmYRMCeY3ewMuK2n-3" value="Event Channel" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cdeb8b;strokeColor=#36393d;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="520" y="204.73" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="1eVOTmYRMCeY3ewMuK2n-4" value="함수 제공" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="1eVOTmYRMCeY3ewMuK2n-1" target="1eVOTmYRMCeY3ewMuK2n-3">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="1eVOTmYRMCeY3ewMuK2n-7" value="디렉토리변경, pub - 클릭한 breadcrumb의 id 전달" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fillColor=#f8cecc;strokeColor=#b85450;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="qx1c1A97qgVuOVS9EGKJ-42" target="1eVOTmYRMCeY3ewMuK2n-3">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1eVOTmYRMCeY3ewMuK2n-10" value="index.js" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="520" y="95.27" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
